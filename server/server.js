@@ -78,7 +78,7 @@ io.on('connection',(socket)=>{
      }
    })
     
-
+//socket
   socket.on('disconnect',()=>{
       //console.log('user disconnected')
       var user = users.removeUser(socket.id)
