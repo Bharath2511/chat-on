@@ -8,8 +8,9 @@ const {Users} = require('./utils/users')
 const publicPath = path.join(__dirname,'../public')
 //console.log(__dirname + '/../public')
 //console.log(publicPath)
-const port = process.env.port || 8080
 var app = express()
+const port = process.env.port || 8080
+
 //integrating server with websockets
 var server = http.createServer(app)
 var io = socketIo(server)
