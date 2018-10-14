@@ -92,6 +92,6 @@ io.on('connection',(socket)=>{
 })
 
 server.listen(port,()=>{
-    console.log(`server is up on ${port}`)
+    console.log('server is up on 8080')
 })
 
