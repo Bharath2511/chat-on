@@ -1,6 +1,6 @@
 # chat-application
 # installation 
-Run npm install to intall all the dependencies.
+Run npm install to install all the dependencies.
 
 # Nothing More
 I haven't used any cloud database such as mlab. I used classes for storing the static data.
